@@ -1,0 +1,14 @@
+body{
+    background-color: aqua;
+}
+
+#container{
+    border: 2px solid grey;
+    width: 360px;
+    margin: 0 auto;
+}
+
+.completed{
+    color: rgba(128, 128, 128, 0.5);
+    text-decoration: line-through;
+}
