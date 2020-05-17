@@ -21,6 +21,6 @@ $("input[type = 'text'").keypress(function(event){
         //Celaring input val
         $(this).val("")
         //Create a new li at the end of ul
-        $("ul").append("<li><span>X</span> " + todo_text + "</li>");
+        $("ul").append('<li><span class="todos"><i class="fas fa-trash"></i></span> ' + todo_text + "</li>");
     }
 })
